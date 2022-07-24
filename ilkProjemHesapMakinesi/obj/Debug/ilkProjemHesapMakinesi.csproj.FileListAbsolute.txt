@@ -1,0 +1,10 @@
+C:\Users\Lab01-01\source\repos\ilkProjemHesapMakinesi\bin\Debug\ilkProjemHesapMakinesi.exe.config
+C:\Users\Lab01-01\source\repos\ilkProjemHesapMakinesi\bin\Debug\ilkProjemHesapMakinesi.exe
+C:\Users\Lab01-01\source\repos\ilkProjemHesapMakinesi\bin\Debug\ilkProjemHesapMakinesi.pdb
+C:\Users\Lab01-01\source\repos\ilkProjemHesapMakinesi\obj\Debug\ilkProjemHesapMakinesi.csproj.AssemblyReference.cache
+C:\Users\Lab01-01\source\repos\ilkProjemHesapMakinesi\obj\Debug\ilkProjemHesapMakinesi.Form1.resources
+C:\Users\Lab01-01\source\repos\ilkProjemHesapMakinesi\obj\Debug\ilkProjemHesapMakinesi.Properties.Resources.resources
+C:\Users\Lab01-01\source\repos\ilkProjemHesapMakinesi\obj\Debug\ilkProjemHesapMakinesi.csproj.GenerateResource.cache
+C:\Users\Lab01-01\source\repos\ilkProjemHesapMakinesi\obj\Debug\ilkProjemHesapMakinesi.csproj.CoreCompileInputs.cache
+C:\Users\Lab01-01\source\repos\ilkProjemHesapMakinesi\obj\Debug\ilkProjemHesapMakinesi.exe
+C:\Users\Lab01-01\source\repos\ilkProjemHesapMakinesi\obj\Debug\ilkProjemHesapMakinesi.pdb
