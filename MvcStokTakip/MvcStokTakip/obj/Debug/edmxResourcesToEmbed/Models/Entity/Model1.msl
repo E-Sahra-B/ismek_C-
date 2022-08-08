@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StokMvcModelStoreContainer" CdmEntityContainer="StokMvcEntities">
+    <EntitySetMapping Name="tbl_kategoriler">
+      <EntityTypeMapping TypeName="StokMvcModel.tbl_kategoriler">
+        <MappingFragment StoreEntitySet="tbl_kategoriler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KategoriAdi" ColumnName="KategoriAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_musteriler">
+      <EntityTypeMapping TypeName="StokMvcModel.tbl_musteriler">
+        <MappingFragment StoreEntitySet="tbl_musteriler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MusteriAd" ColumnName="MusteriAd" />
+          <ScalarProperty Name="MusteriSoyad" ColumnName="MusteriSoyad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Satislar">
+      <EntityTypeMapping TypeName="StokMvcModel.tbl_Satislar">
+        <MappingFragment StoreEntitySet="tbl_Satislar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SatilanUrun" ColumnName="SatilanUrun" />
+          <ScalarProperty Name="UrunMusterisi" ColumnName="UrunMusterisi" />
+          <ScalarProperty Name="Adet" ColumnName="Adet" />
+          <ScalarProperty Name="Fiyat" ColumnName="Fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Urunler">
+      <EntityTypeMapping TypeName="StokMvcModel.tbl_Urunler">
+        <MappingFragment StoreEntitySet="tbl_Urunler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="UrunKategori" ColumnName="UrunKategori" />
+          <ScalarProperty Name="Fiyat" ColumnName="Fiyat" />
+          <ScalarProperty Name="Stok" ColumnName="Stok" />
+          <ScalarProperty Name="Marka" ColumnName="Marka" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,28 @@
+﻿@using MvcStokTakip.Models.Entity
+@model List<tbl_musteriler>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-1">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Musteri Id</th>
+                <th>Musteri Adı</th>
+                <th>Musteri Soyadı</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mstr in Model)
+            {
+                <tr>
+                    <td>@mstr.Id</td>
+                    <td>@mstr.MusteriAd</td>
+                    <td>@mstr.MusteriSoyad</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
